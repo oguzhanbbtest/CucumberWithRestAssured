@@ -9,7 +9,8 @@ We will try to reduce code repetitions gradually and try to make a clean sample 
 
 ## *Dependecies*
 
-         <dependency>
+         <dependencies>
+        <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.3.1</version>
@@ -31,6 +32,18 @@ We will try to reduce code repetitions gradually and try to make a clean sample 
             <artifactId>jackson-databind</artifactId>
             <version>2.15.2</version>
         </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.12.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>7.12.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 
 ![image](./image/BookerDiagram.png)
